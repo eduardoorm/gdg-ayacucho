@@ -5,7 +5,7 @@ on:
     inputs:
       saludo:
         type: choice
-        options: [Hola, Buenas, Qué tal]
+        options: [Hola, Buenas, Qué tal soy Nicolas]
 jobs:
   saludar:
     runs-on: ubuntu-latest
